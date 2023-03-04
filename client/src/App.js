@@ -1,11 +1,10 @@
-import './App.css';
+import './css/App.css';
+import SplashScreen from './components/SplashScreen';
+import { BrowserRouter, Route, Routes} from 'react-router-dom'
 
-function App() {
+export const App = () => {
   return (
-    <div>
-      awdawdawdaw
-      balanawddwa
-    </div>
+    <SplashScreen/>
   );
 }
 
