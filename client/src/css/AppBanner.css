@@ -1,0 +1,9 @@
+.ant-btn-primary {
+    border-radius:10px;
+    color: white
+}
+
+.ant-btn-primary:hover {
+    border-radius:10px;
+    color: lightgray;
+}
